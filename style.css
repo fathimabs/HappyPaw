@@ -46,7 +46,7 @@ ul {
 
 .menu-item {
   display: flex;
-  gap: 20px;
+  gap: 12px;
   justify-content: center;
   padding: 10px;
 }
@@ -168,12 +168,11 @@ a {
   background-color: white;
   display: flex;
   flex-direction: column;
-  margin: 0 100px;
+  margin: 10px;
 }
 
 .section-4 h1 {
-  padding: 20px;
-
+  padding: 10px;
 }
 
 .section-4-btn {
@@ -187,7 +186,7 @@ a {
   background-color: white;
   display: flex;
   flex-direction: column;
-  margin: 0 150px;
+  margin: 0 15px;
 }
 
 .sec-4-img {
@@ -402,11 +401,16 @@ a {
 
   }
 
+  .section-4 {
+    margin: 0 100px;
+  }
+
   .sec-4-content {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+
 
   }
 
